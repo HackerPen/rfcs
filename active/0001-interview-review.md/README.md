@@ -1,6 +1,6 @@
 - Start Date: 2022-01-17
 - RFC PR: (leave this empty)
-- React Issue: (leave this empty)
+- React Issue: https://github.com/HackerPen/rfcs/issues/1
 
 # Summary
 
