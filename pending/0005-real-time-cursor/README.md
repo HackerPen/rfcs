@@ -1,28 +1,25 @@
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
-- Design Link: (fill me with Figma or Miro link)
+- Start Date: 2022-02-26
+- Design link: (Figma link)
 - RFC PR: (leave this empty)
 - RFC Issue: (leave this empty)
 
 # Summary
 
-Brief explanation of the feature.
+Have real time cursor update for both codepad and drawpad.
 
 # Basic example
 
-If the proposal involves a new or changed API, include a basic code example.
-Omit this section if it's not applicable.
+### Excalidraw inspiration
+![excalidraw](excalidraw-real-time-cursor.png)
+
+### CoderPad inspiration
+
 
 # Motivation
 
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
+Real time cursor updates gives people idea where other users is at, it drives more real-time engagements.
 
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
-
-# Detailed design
+# Detailed design (TBD)
 
 This is the bulk of the RFC. Explain the design in enough detail for somebody
 familiar with React to understand, and for somebody familiar with the
@@ -30,7 +27,7 @@ implementation to implement. This should get into specifics and corner-cases,
 and include examples of how the feature is used. Any new terminology should be
 defined here.
 
-# Drawbacks
+# Drawbacks (TBD)
 
 Why should we *not* do this? Please consider:
 
@@ -42,7 +39,7 @@ Why should we *not* do this? Please consider:
 
 There are tradeoffs to choosing any path. Attempt to identify them here.
 
-# Unresolved questions
+# Unresolved questions (TBD)
 
 Optional, but suggested for first drafts. What parts of the design are still
 TBD?

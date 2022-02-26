@@ -1,28 +1,24 @@
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
-- Design Link: (fill me with Figma or Miro link)
 - RFC PR: (leave this empty)
 - RFC Issue: (leave this empty)
 
 # Summary
 
-Brief explanation of the feature.
+For each live session, before entering, a user will first land in a preview page.
 
 # Basic example
 
-If the proposal involves a new or changed API, include a basic code example.
-Omit this section if it's not applicable.
+![google-meet-preview](google-meet-preview.png)
+![microsoft-teams-preview](microsoft-teams-preview.jpeg)
 
 # Motivation
 
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
+Having a preview provides a better experience to user in following ways:
 
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
+- they can check their audio and video prior joining the call
+- HackerPen can add more features before they join the call in the future (e.g. blur background, etc.)
 
-# Detailed design
+# Detailed design (TBD)
 
 This is the bulk of the RFC. Explain the design in enough detail for somebody
 familiar with React to understand, and for somebody familiar with the
@@ -30,7 +26,7 @@ implementation to implement. This should get into specifics and corner-cases,
 and include examples of how the feature is used. Any new terminology should be
 defined here.
 
-# Drawbacks
+# Drawbacks (TBD)
 
 Why should we *not* do this? Please consider:
 
@@ -42,7 +38,7 @@ Why should we *not* do this? Please consider:
 
 There are tradeoffs to choosing any path. Attempt to identify them here.
 
-# Unresolved questions
+# Unresolved questions (TBD)
 
 Optional, but suggested for first drafts. What parts of the design are still
 TBD?
