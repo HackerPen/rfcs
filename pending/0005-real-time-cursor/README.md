@@ -1,45 +1,48 @@
-- Start Date: 2022-02-26
-- Design link: (Figma link)
-- RFC PR: (leave this empty)
-- RFC Issue: (leave this empty)
+- **Start Date:** 2022-02-26
+- **Design link:** (Figma link)
+- **RFC PR:**
+- **RFC Issue:**
 
 # Summary
 
-Have real time cursor update for both codepad and drawpad.
+Implement real-time cursor and text/components highlighting for the CodePad and DrawPad.
 
 # Basic example
 
 ### Excalidraw inspiration
-![excalidraw](excalidraw-real-time-cursor.png)
+![excalidraw](excalidraw.gif)
 
 ### CoderPad inspiration
-
+![coderpad](coderpad.gif)
 
 # Motivation
 
-Real time cursor updates gives people idea where other users is at, it drives more real-time engagements.
+Real-time cursor and highlighting features make the user interaction more real-time and help follow other people's activities. More specifically, it's confusing to follow when more than one person participates in a session.
 
-# Detailed design (TBD)
+# Detailed design
 
-This is the bulk of the RFC. Explain the design in enough detail for somebody
-familiar with React to understand, and for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
+## Display Users
+* List all the active users of a session
+* Create an avatar with the initials for all the users
+* Assign a unique color to every user
+* Update the list when a user enter and exit a session
 
-# Drawbacks (TBD)
+## CodePad
+* Provide a cursor for all the users of a session
+* Color the pointer with the color assigned to a user
+* When a user selects a component, highlight it with the user color
 
-Why should we *not* do this? Please consider:
+## DrawPad
+* The IDE should update the cursor position when any of the users changes it
+* Highlight the selected code for all the users
+* Highlight the user avatar who is currently typing
 
-- implementation cost, both in term of code size and complexity
-- whether the proposed feature can be implemented in user space
-- the impact on teaching people React
-- integration of this feature with other existing and planned features
-- cost of migrating existing React applications (is it a breaking change?)
+# Drawbacks
 
-There are tradeoffs to choosing any path. Attempt to identify them here.
+- It makes it difficult for the app to work if the connection is slow
+- Increases code complexity: Frontend and Backend
 
-# Unresolved questions (TBD)
+# Unresolved questions
 
-Optional, but suggested for first drafts. What parts of the design are still
-TBD?
+- Is WebRTC or WebSockets better to implement this?
+- How to deal with slow connections?
