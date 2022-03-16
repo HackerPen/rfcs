@@ -1,10 +1,10 @@
 # HackerPen public roadmap
 
-:sparkle: View the [official HackerPen public product roadmap](https://github.com/orgs/hackerpen/projects/1)
+:sparkle: View the [2022 HackerPen public product roadmap](https://github.com/orgs/hackerpen/projects/1)
 
 Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via [HackerPen public feedback discussions](https://github.com/HackerPen/roadmap/discussions)).
 
-The roadmap repository is for communicating HackerPen's roadmap. We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of HackerPen products and features. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [general feedback in HackerPen public discussions](https://github.com/HackerPen/roadmap/discussions/new?category=general). Please review the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) before participating in discussions.
+The feedback repository is for communicating HackerPen's roadmap. We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of HackerPen products and features. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [general feedback in HackerPen public discussions](https://github.com/HackerPen/roadmap/discussions/new?category=general). Please review the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) before participating in discussions.
 
 ## Roadmap and Feedback
 
