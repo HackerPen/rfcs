@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: HackerPen Feedback
+    url: https://github.com/HackerPen/roadmap/discussions
+    about: Share your feedback with the HackerPen team.
