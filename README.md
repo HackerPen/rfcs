@@ -33,6 +33,9 @@ Ready for production use with associated SLA and technical support obligations. 
 
 Some of our features may still be in the exploratory stages, and have no timeframe available. These are included in the roadmap only for early feedback. These are marked as follows:
 
+- **in development:**\
+Feature under development. We have designed a solution and are actively implementing it
+
 - **in design:**\
 Feature in discovery phase. We have decided to build this feature, but are still figuring out _how_.
 
@@ -44,10 +47,10 @@ Feature under consideration. We are considering building this feature, and gathe
 
 The following is a list of our current product areas:
 
-- **async-server** Real-time communication (WebRTC, WebSocket)
-- **client-apps:** Planning and tracking tools (Issues, Projects)
+- **realtime-server:** Real-time communication (WebRTC, WebSocket)
+- **client-apps:** Client applications (Desktop, Mobile)
 - **runtime:** Remote coding environment
-- **code-to-cloud:** Code-to-cloud DevOps (Actions, Packages)
+- **code-to-cloud:** Code-to-cloud DevOps (Actions, Kubernetes)
 - **other:** Other features
 
 ## Product SKUs
